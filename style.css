@@ -1,0 +1,21 @@
+
+/**
+ * Track JS logo.
+ */
+
+.logo[data-logo="Track JS"] {
+  width: 2.8169253812636166em;
+}
+
+.logo[data-logo="Track JS"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Track JS"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Track JS"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
